@@ -1,0 +1,117 @@
+.footer {
+  background: linear-gradient(135deg, #1c2533, #0f1722);
+  color: #ffffff;
+  padding-top: 50px;
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #2e3a4d;
+  padding-bottom: 30px;
+}
+
+/* ЛЕВО */
+.left {
+  max-width: 420px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  color: #b8c0cc;
+  line-height: 1.6;
+}
+
+.extra {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #8a94a6;
+  line-height: 1.6;
+}
+
+/* ПРАВО */
+.right {
+  text-align: right;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 14px;
+  color: #b8c0cc;
+  margin-bottom: 10px;
+}
+
+/* ТЕЛЕФОН */
+.phone {
+  display: block;
+  color: #ee9d00;
+  text-decoration: none;
+  margin-bottom: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.phone:hover {
+  color: #ffffff;
+  transform: translateX(3px);
+}
+
+/* КНОПКА */
+.callBtn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #ee9d00;
+  color: #000;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.callBtn:hover {
+  background: #ffb733;
+}
+
+/* НИЗ */
+.bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #8a94a6;
+  padding: 20px 0;
+}
+
+/* АДАПТИВ */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .description {
+    margin: 0 auto;
+  }
+}

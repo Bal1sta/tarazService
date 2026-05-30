@@ -1,0 +1,156 @@
+.HeroSectionContainer{
+  max-width:1200px;
+  margin:auto;
+  padding:30px 20px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  /* gap:40px; */
+}
+
+/* LEFT SIDE */
+
+.LeftSide{
+  /* max-width:550px; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.HeadingTitle{
+  font-size:56px;
+  line-height:1.1;
+  margin:0 0 20px;
+  font-weight:700;
+}
+
+.HeadingTitle span{
+  color:#00a8e8;
+}
+
+.SubTitle{
+  font-size:22px;
+  margin-bottom:25px;
+}
+
+/* GRID */
+
+.AreaMain{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+  list-style:none;
+  padding:0;
+  /* margin-bottom:30px; */
+}
+
+.AreaMain li{
+  font-weight:600;
+  padding-left:55px;
+  min-height:45px;
+  display:flex;
+  align-items:center;
+  position:relative;
+  font-size:15px;
+}
+
+/* ICONS */
+
+.ListItem1,
+.ListItem2,
+.ListItem3,
+.ListItem4,
+.ListItem5,
+.ListItem6{
+  background-size:38px;
+  background-repeat:no-repeat;
+  background-position:left center;
+}
+
+.ListItem1{background-image:url('https://eco-service.kz/wp-content/themes/ecoservice/images-dop/cleaning-free.png');}
+.ListItem2{background-image:url('https://eco-service.kz/wp-content/themes/ecoservice/images/i-ico-02.svg');}
+.ListItem3{background-image:url('https://eco-service.kz/wp-content/themes/ecoservice/images/i-ico-03.svg');}
+.ListItem4{background-image:url('https://eco-service.kz/wp-content/themes/ecoservice/images-dop/cleaning-reload.png');}
+.ListItem5{background-image:url('https://eco-service.kz/wp-content/themes/ecoservice/images-dop/cleaning-check.png');}
+.ListItem6{background-image:url('https://eco-service.kz/wp-content/themes/ecoservice/images-dop/cleaning-users.png');}
+
+
+/* BUTTON */
+
+.WhatsappButton {
+  width: 340px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00aeef;
+  border-radius: 22px 0 22px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: inset -2px -2px 3px 1px #008dcb,
+    inset 2px 2px 3px 1px #70cff3;
+  transition: 0.2s;
+}
+
+.WhatsappButton:hover{
+  background:#1793bf;
+}
+
+
+/* RIGHT SIDE */
+
+.RightSide{
+  position:relative;
+  width:450px;
+}
+
+/* PHOTO */
+
+.MainPhoto{
+  width:500px;
+  height:500px;
+
+  background-image: url('../Images/master.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  border-radius:20px;
+  /* box-shadow:0 20px 60px rgba(0,0,0,0.15); */
+  align-self:flex-start;
+}
+
+/* MASTER CARD */
+
+.MasterCard{
+  position:absolute;
+  /* right:0; */
+  top:-20px;
+
+  background:#f3f3f3;
+  border-radius:16px;
+  padding:15px 20px;
+  width:220px;
+
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.MasterCard strong{
+  font-size:16px;
+}
+
+.Rating{
+  float:right;
+  color:#f4b400;
+}
+
+.Experience{
+  font-size:13px;
+}
+
+.Experience span{
+  color:#00a8e8;
+  font-weight:700;
+}
